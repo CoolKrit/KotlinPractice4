@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/getUsersFragment">
+
+    <fragment
+        android:id="@+id/getUsersFragment"
+        android:name="com.example.kotlinpractice4.GetUsersFragment"
+        android:label="fragment_get_products"
+        tools:layout="@layout/fragment_get_users">
+        <action
+            android:id="@+id/action_getUsersFragment_to_usersFragment"
+            app:destination="@id/usersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.example.kotlinpractice4.UsersFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_users" />
+</navigation>

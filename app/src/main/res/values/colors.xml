@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App colors Dark. -->
+    <color name="md_theme_dark_primary">#4ECCA3</color>
+    <color name="md_theme_dark_secondary">#3A9979</color>
+    <color name="md_theme_dark_onPrimary_onSecondary">@color/white</color>
+    <color name="md_theme_dark_hint">#BDBDBD</color>
+    <color name="md_theme_dark_foreground">#2A2A2A</color>
+    <color name="md_theme_dark_background">#131313</color>
+</resources>
